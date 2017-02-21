@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>babaji 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/details.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Project Name</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-2 sidenav hidden-xs">
+      <h2>Project Name</h2>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="#section2">Project 1</a></li>
+        <li><a href="#section3">Project 2</a></li>
+        <li><a href="#section3">Project 3</a></li>
+      </ul><br>
+    </div>
+    <br>
+
+    <div class="col-sm-10">
+      <form>
+        <div class="form-group">
+          <h3>Project Title</h3>
+          <input class="form-control form-control-lg" type="text" placeholder="title of your project">
+        </div>
+        <div class="form-group">
+          <h3>Project Description</h3>
+          <input class="form-control form-control-lg" type="text" placeholder="project description" height="500">
+        </div>
+        <div class="row content">
+          <div class="col-sm-3 form-group">
+              <h4>Cost</h4>
+              <div class="input-group currency">
+                <span class="input-group-addon">INR</span>
+                <input type="number" class="form-control" value="1000.00">
+              </div>
+          </div>
+          <div class="col-sm-3 form-group">
+              <h4>Start Date</h4>
+              <div class="input-group date">
+                <input type="date" class="form-control">
+              </div>
+          </div>
+          <div class="col-sm-3 form-group">
+              <h4>End Date</h4>
+              <div class="input-group date">
+                <input type="date" class="form-control">
+              </div>
+          </div>
+          <div class="col-sm-3 form-group">
+              <h4>Category</h4>
+              <select class="form-control match-content">
+                <option selected="">Medium</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+              </select>
+          </div>
+        </div>
+        <div class="form-group">
+            <table class="table">
+              <thead>
+                <tr>
+                  <td>
+                    <a class="btn-default" href="#" role="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td><h4>Activity</h4></td>
+                  <td><h4>Start Date</h4></td>
+                  <td><h4>End Date</h4></td>
+                  <td><h4>Description</h4></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <select class="form-control match-content">
+                      <option selected="">Building</option>
+                      <option>road</option>
+                      <option>nala</option>
+                      <option>foundation</option>
+                    </select>
+                  </td>
+                  <td>
+                    <div class="input-group date">
+                      <input type="date" class="form-control">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="input-group date">
+                      <input type="date" class="form-control">
+                    </div>
+                  </td>
+                  <td>
+                    <input class="form-control form-control-lg" type="text" placeholder="description">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
